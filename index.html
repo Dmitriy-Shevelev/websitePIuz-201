@@ -3,20 +3,21 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
     <title>Домашняя страница</title>
 </head>
 <body>
-    <header>
-        <h1>Шевелев Дмитрий Александрович</h1>
+    <header class="header">
+        <h1 class="header__title">Шевелев Дмитрий Александрович</h1>
     </header>
-    <main>
+    <main class="main">
         <p>
-            Я студент-бакалавр 3 курса группы ПИуз-201 <a href="https://kemsu.ru/" target="_blank">Кемеровского государственного университета</a>. 
+            Я студент-бакалавр 3 курса группы ПИуз-201 <a class="link main__link" href="https://kemsu.ru/" target="_blank">Кемеровского государственного университета</a>. 
             Обучение заканчиваю в 2023 году.
         </p>
 
         <h2>Сравнение IDE</h2>
-        <table align="center">
+        <table class="table">
             <tr>
                 <th>Название IDE</th>
                 <th>Поддерживаемые языки</th>
@@ -51,14 +52,14 @@
             </tr>
         </table>
     </main>
-    <footer>
+    <footer class="footer">
         <p>Соцсети:</p>
-        <ul>
-            <li>🤡 <a href="https://vk.com/id72486839" target="_blank">VK</a></li>
-            <li>🤡 <a href="https://github.com/Dmitriy-Shevelev" target="_blank">Github</a></li>
+        <ul class="list footer__list">
+            <li class="list-item"><a class="link footer__link" href="https://vk.com/id72486839" target="_blank">VK</a></li>
+            <li class="list-item"><a class="link footer__link" href="https://github.com/Dmitriy-Shevelev" target="_blank">Github</a></li>
         </ul>
 
-        <a href="contact_me.html" target="_blank">Contact me</a>
+        <a class="link footer__link footer__link_type_contact" href="contact_me.html" target="_blank">Contact me</a>
     </footer>
 </body>
 </html>
